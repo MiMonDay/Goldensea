@@ -1,6 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Gui/main/Gui"))()
 
-local m = Library:Window("Main")
+local m = Library:Window("Dịch chuyển")
+lolcal p = Library:Window("Fruit")
 
 m:Button("Đảo người cá", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12962.173828125, 2.6982223987579346, -4746.24267578125)
@@ -56,4 +57,194 @@ end)
 
 m:Button("Đảo đầu lâu", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8295.830078125, 2.6982219219207764, -390.4710388183594)
+end)
+
+p:Button("Fruit Venom", function()
+local args = {
+    [1] = "Venom"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Gravity", function()
+local args = {
+    [1] = "Gravity"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Dragon", function()
+local args = {
+    [1] = "Dragon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Quake", function()
+local args = {
+    [1] = "Quake"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Navigate", function()
+local args = {
+    [1] = "Navigate"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+p:Button("Fruit Soul", function()
+local args = {
+    [1] = "Soul"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Spring", function()
+local args = {
+    [1] = "Spring"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Falcon", function()
+local args = {
+    [1] = "Falcon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Spirit", function()
+local args = {
+    [1] = "Spirit"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Diamond", function()
+local args = {
+    [1] = "Diamond"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Pow", function()
+local args = {
+    [1] = "Pow"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Door", function()
+local args = {
+    [1] = "Door"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Barrier", function()
+local args = {
+    [1] = "Barrier"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Leopard", function()
+local args = {
+    [1] = "Leopard"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Phoenix", function()
+local args = {
+    [1] = "Phoenix"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Giant", function()
+local args = {
+    [1] = "Giant"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Lighting", function()
+local args = {
+    [1] = "Lighting"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Dark", function()
+local args = {
+    [1] = "Dark"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))Vera )
+
+p:Button("Fruit Light", function()
+local args = {
+    [1] = "Light"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Ice", function()
+local args = {
+    [1] = "Ice"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Magma", function()
+local args = {
+    [1] = "Magma"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Smoke", function()
+local args = {
+    [1] = "Smoke"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Spin", function()
+local args = {
+    [1] = "Spin"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
+p:Button("Fruit Bomb", function()
+local args = {
+    [1] = "Bomb"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
 end)
