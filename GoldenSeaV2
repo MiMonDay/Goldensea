@@ -3,6 +3,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMon
 local m = Library:Window("Dịch chuyển")
 local p = Library:Window("Fruit")
 local f = Library:Window("Stats chừa 1 điểm")
+local s = Library:Window("Chiêu 0s")
 
 m:Button("Đảo người cá", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12962.173828125, 2.6982223987579346, -4746.24267578125)
