@@ -1,0 +1,59 @@
+@Đỗ Minh Quân local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Gui/main/Gui"))()
+
+local m = Library:Window("Main")
+
+m:Button("Đảo người cá", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12962.173828125, 2.6982223987579346, -4746.24267578125)
+end)
+
+m:Button("Đảo hải quân", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4391.2412109375, 3.7858245372772217, -104.5491943359375)
+end)
+
+m:Button("Đảo Human", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3349.527099609375, -1.1811035871505737, -1849.2694091796875)
+end)
+
+m:Button("Đảo lv50", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1731.54443359375, 2.6981313228607178, -1378.74853515625)
+end)
+
+m:Button("Đảo lv150", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1858.2415771484375, 59.822261810302734, -182.5125274658203)
+end)
+
+m:Button("Đảo lv200", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2660.30712890625, 2.6982219219207764, 725.948486328125)
+end)
+
+m:Button("Đảo lv1", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.7719497680664, 2.6982219219207764, 64.45478057861328)
+end)
+
+m:Button("Đảo random df", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(192.7979278564453, 2.6982219219207764, 918.8638916015625)
+end)
+
+m:Button("Đảo Doflamingo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1318.1778564453125, 1.7894660234451294, 3699.760498046875)
+end)
+
+m:Button("Đảo lv850", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3031.34423828125, 19.054447174072266, 624.9080810546875)
+end)
+
+m:Button("Đảo cây to", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2114.008056640625, -5.20233678817749, -1714.613525390625)
+end)
+
+m:Button("Đảo đấu trường", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-174.2180633544922, 5.278696060180664, -2170.332763671875)
+end)
+
+m:Button("Đảo boss lv5000", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4226.69677734375, 2.6982219219207764, -4194.02880859375)
+end)
+
+m:Button("Đảo đầu lâu", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8295.830078125, 2.6982219219207764, -390.4710388183594)
+end)
