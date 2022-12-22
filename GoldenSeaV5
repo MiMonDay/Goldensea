@@ -346,3 +346,63 @@ local args = {
 
 game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
 end)
+
+s:Button("Fruit Rubber", function()
+local args = {
+[1] = "Change",
+[2] = "Rubber",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
+
+s:Button("Fruit Sand", function()
+local args = {
+[1] = "Change",
+[2] = "Sand",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
+
+s:Button("Fruit Spike", function()
+local args = {
+[1] = "Change",
+[2] = "Spike",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
+
+s:Button("Fruit Shadow", function()
+local args = {
+[1] = "Change",
+[2] = "Shadow",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
+
+s:Button("Fruit String", function()
+local args = {
+[1] = "Change",
+[2] = "String",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
+
+s:Button("Fruit Gas", function()
+local args = {
+[1] = "Change",
+[2] = "Gas",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
