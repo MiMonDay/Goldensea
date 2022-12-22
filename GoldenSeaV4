@@ -177,6 +177,9 @@ local args = {
     [1] = "Phoenix"
 }
 
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
+
 f:Button("Melee", function()
 local args = {
     [1] = "Melee",
@@ -211,10 +214,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").StatSystem.Points:FireServer(unpack(args))
-end)
-
-
-game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
 end)
 
 s:Button("Fruit Giant", function()
