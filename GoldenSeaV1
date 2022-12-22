@@ -199,7 +199,8 @@ local args = {
     [1] = "Dark"
 }
 
-game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))Vera )
+game:GetService("Players").LocalPlayer.PlayerGui.Shop.Frame.Buyy:FireServer(unpack(args))
+end)
 
 p:Button("Fruit Light", function()
 local args = {
