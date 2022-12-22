@@ -1,4 +1,4 @@
-@Đỗ Minh Quân local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Gui/main/Gui"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Gui/main/Gui"))()
 
 local m = Library:Window("Main")
 
