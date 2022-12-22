@@ -336,3 +336,13 @@ local args = {
 
 game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
 end)
+
+s:Button("Fruit Dough", function()
+local args = {
+[1] = "Change",
+[2] = "Dough",
+[3] = "Inv"
+}
+
+game:GetService("ReplicatedStorage"). Inventory: FireServer (unpack (args))
+end)
